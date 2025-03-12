@@ -1,1 +1,5 @@
-# Crop Recommendation System
+# Crop Recommendation System.
+
+## Project overview.
+
+This project aims to develop a machine learning-based crop recommendation system that suggests the most suitable crops for a given soil condition. Using a dataset containing essential agricultural parameters such as nitrogen, phosphorus, potassium, soil pH, temperature, humidity and rainfall, the system predicts which crops can thrive in specific environmental conditions. By leveraging machine learning techniques, this project provides an accurate and data-driven approach to optimize agricultural productivity and minimize losses. The analysis involves exploratory data analysis (EDA) to understand the dataset's distribution, correlations and potential outliers. Various classification models, including Decision Trees, Support Vector Machines (SVM), Random Forest, and K-Nearest Neighbors (KNN), are trained and evaluated to determine the best-performing model. Additionally, a Bagging Classifier is used to enhance model performance by fine-tuning weak learners. The final model achieves high accuracy in crop prediction, providing valuable insights for farmers and agricultural researchers. This solution contributes to sustainable farming by enabling precise decision-making based on soil characteristics, ultimately leading to improved crop yields and efficient resource utilization.
