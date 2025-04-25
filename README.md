@@ -5,6 +5,8 @@
 This project aims to develop a machine learning-based crop recommendation system that suggests the most suitable crops based on soil and environmental conditions. Using a dataset containing essential agricultural parameters — including nitrogen, phosphorus, potassium, soil pH, temperature, humidity, and rainfall — the system predicts which crops are most likely to thrive in specific conditions.
 By leveraging various machine learning techniques, the project provides a data-driven approach to optimize agricultural productivity and reduce potential losses.
 
+**[Click here to try the app live!](https://crop-soil-prediction-jgcnjn3mjl4lhuj7u4jvgm.streamlit.app/)**
+
 ## Methodology
 Exploratory Data Analysis (EDA) was performed to understand distributions, correlations, and detect any outliers in the dataset.
 
