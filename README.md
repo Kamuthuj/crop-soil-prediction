@@ -14,7 +14,7 @@ Multiple classification models were trained:
 
 Baseline models such as Decision Tree Classifier.
 
-Ensemble models like Random Forest, which performed well without signs of overfitting or underfitting.
+Ensemble models like the Random Forest, which performed well without signs of overfitting or underfitting.
 
 Cross-validation was used to assess generalization and performance on unseen data.
 
