@@ -18,7 +18,7 @@ Ensemble models like the Random Forest, which performed well without signs of ov
 
 Cross-validation was used to assess generalization and performance on unseen data.
 
-Additionally, a deep neural network was implemented to capture complex, non-linear relationships between the features and target labels. The model included:
+A deep neural network was implemented to capture complex, non-linear relationships between the features and target labels. The model included:
 
 Multiple dense layers with ReLU activation.
 
