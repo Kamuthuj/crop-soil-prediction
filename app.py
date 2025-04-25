@@ -12,7 +12,7 @@ encoder = joblib.load("LabelEncoder.pkl")
 feature_names = ["nitrogen", "phosphorus", "potassium", "temperature", "humidity", "PH", "rainfall"]
 
 # Streamlit app layout
-st.title("🌾 Crop Recommendation System")
+st.title("🌾Crop Recommendation System")
 
 st.markdown("Enter the soil and environmental conditions below to get a crop recommendation:")
 
@@ -39,4 +39,3 @@ if st.button("Predict Crop"):
 
     # Display the result
     st.success(f"The recommended crop is: **{predicted_crop}**")
-
