@@ -2,4 +2,28 @@
 
 ## Project overview.
 
-This project aims to develop a machine learning-based crop recommendation system that suggests the most suitable crops for a given soil condition. Using a dataset containing essential agricultural parameters such as nitrogen, phosphorus, potassium, soil pH, temperature, humidity and rainfall, the system predicts which crops can thrive in specific environmental conditions. By leveraging machine learning techniques, this project provides an accurate and data-driven approach to optimize agricultural productivity and minimize losses. The analysis involves exploratory data analysis (EDA) to understand the dataset's distribution, correlations and potential outliers. Various classification models, including Decision Trees, Support Vector Machines (SVM), Random Forest, and K-Nearest Neighbors (KNN), are trained and evaluated to determine the best-performing model. Additionally, a Bagging Classifier is used to enhance model performance by fine-tuning weak learners. The final model achieves high accuracy in crop prediction, providing valuable insights for farmers and agricultural researchers. This solution contributes to sustainable farming by enabling precise decision-making based on soil characteristics, ultimately leading to improved crop yields and efficient resource utilization.
+This project aims to develop a machine learning-based crop recommendation system that suggests the most suitable crops based on soil and environmental conditions. Using a dataset containing essential agricultural parameters — including nitrogen, phosphorus, potassium, soil pH, temperature, humidity, and rainfall — the system predicts which crops are most likely to thrive in specific conditions.
+By leveraging various machine learning techniques, the project provides a data-driven approach to optimize agricultural productivity and reduce potential losses.
+
+## Methodology
+Exploratory Data Analysis (EDA) was performed to understand distributions, correlations, and detect any outliers in the dataset.
+
+Multiple classification models were trained:
+
+Baseline models such as Decision Tree Classifier.
+
+Ensemble models like Random Forest, which performed well without signs of overfitting or underfitting.
+
+Cross-validation was used to assess generalization and performance on unseen data.
+
+Additionally, a deep neural network was implemented to capture complex, non-linear relationships between the features and target labels. The model included:
+
+Multiple dense layers with ReLU activation.
+
+Early stopping based on validation loss, with a patience of 5 epochs.
+
+A final softmax output layer for multi-class classification.
+
+The deep learning model showed strong performance — validation accuracy improved consistently across epochs, while loss decreased, indicating effective learning and generalization.
+
+This project demonstrates how ML and deep learning can be used to recommend crops tailored to specific environmental conditions. Such systems have the potential to assist farmers, agronomists, and policymakers in making informed decisions to boost yield and sustainability.
