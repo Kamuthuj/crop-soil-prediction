@@ -46,3 +46,5 @@ if st.button("Predict Crop"):
 
     # Display the result
     st.success(f"The recommended crop is: **{predicted_crop}**")
+    st.balloons()
+    st.write("### Thank you for using the Crop Recommendation System!")
